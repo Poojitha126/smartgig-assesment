@@ -1,0 +1,34 @@
+{
+  "name": "smartgig",
+  "version": "1.0.0",
+  "description": "Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poojitha126/smartgig-assesment.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "ExpressJS"
+  ],
+  "author": "Poojitha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Poojitha126/smartgig-assesment/issues"
+  },
+  "homepage": "https://github.com/Poojitha126/smartgig-assesment#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
